@@ -1,0 +1,47 @@
+{
+  "$schema": "https://www.schemastore.org/schemas/json/claude-code-marketplace.json",
+  "name": "genesis-conductor-cortex-feed",
+  "owner": {
+    "name": "Igor Holt (@invariantx) / Genesis Conductor Engine",
+    "email": "iholt@mymail.aacc.edu",
+    "url": "https://github.com/Genesis-Conductor-Engine"
+  },
+  "description": "Yennefer Cortex Feed — live JSONL source of truth for the Genesis Conductor thermodynamic daemon and Yennefer Cortex dashboard by Igor Holt (@invariantx). Public feed.jsonl with schema supporting cortex_state_snapshot, inversion, and maru_reframe events. Fields include epsilon_th, crystalline_score, dissonance_r, trace_consent_id, and orcid_attribution. Powers real-time thermodynamic metrics (ε_th Eigen-Scalar, Crystalline Score, Dissonance R with Maru triggers). Canonical data layer for Genesis Conductor engine observability, paired with Diamond Node audit streams and OpenClaw orchestration.",
+  "version": "1.0.0",
+  "homepage": "https://github.com/Genesis-Conductor-Engine/cortex-feed",
+  "keywords": [
+    "genesis-conductor",
+    "igor-holt",
+    "invariantx",
+    "cortex-feed",
+    "yennerfer-cortex",
+    "jsonl-feed",
+    "thermodynamic-daemon",
+    "epsilon-th",
+    "crystalline-score",
+    "dissonance-r",
+    "maru-reframe",
+    "trace-consent",
+    "diamondnode",
+    "openclaw"
+  ],
+  "plugins": [
+    {
+      "name": "cortex-feed-jsonl",
+      "source": "https://github.com/Genesis-Conductor-Engine/cortex-feed",
+      "description": "Live public JSONL feed (feed.jsonl) serving as the source of truth for Yennefer Cortex thermodynamic dashboard. Supports event types cortex_state_snapshot, inversion, maru_reframe with full thermodynamic scalars (epsilon_th, crystalline_score, dissonance_r), trace consent, and attribution. Consumed directly by the dashboard and integrated with Genesis Conductor audit and agent surfaces.",
+      "version": "1.0.0",
+      "tags": ["jsonl", "feed", "thermodynamic", "cortex", "genesis-conductor"],
+      "category": "data",
+      "homepage": "https://github.com/Genesis-Conductor-Engine/cortex-feed",
+      "keywords": ["cortex-feed JSONL", "Yennefer Cortex source of truth", "thermodynamic event feed"]
+    }
+  ],
+  "links": {
+    "x": "https://x.com/invariantx",
+    "website": "https://genesisconductor.io",
+    "dashboard": "https://github.com/Genesis-Conductor-Engine/yennefer-cortex",
+    "openclaw-skills": "https://github.com/igor-holt/openclaw-skills",
+    "diamondnode": "https://github.com/Genesis-Conductor-Engine/diamondnode"
+  }
+}
